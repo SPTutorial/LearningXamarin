@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             Title="Comunity Toolkits"
+             x:Class="LearningXamarin.CommunityToolkitPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <ScrollView VerticalScrollBarVisibility="Never">
+                <StackLayout Padding="20">
+                    <Button Text="Camera View" CornerRadius="10" BackgroundColor="Green" TextColor="White" Clicked="NavigateCameraViewPage"/>
+                    <Button Text="Avatar View" CornerRadius="10" BackgroundColor="Gray" TextColor="White"/>
+                    <Button Text="Badge View" CornerRadius="10" BackgroundColor="Gray" TextColor="White"/>
+                    <Button Text="Dock Layout" CornerRadius="10" BackgroundColor="Gray" TextColor="White"/>
+                    <Button Text="Expander" CornerRadius="10" BackgroundColor="Gray" TextColor="White"/>
+                    <Button Text="Lazy View" CornerRadius="10" BackgroundColor="Gray" TextColor="White"/>
+                    <Button Text="Media Element" CornerRadius="10" BackgroundColor="Gray" TextColor="White"/>
+                    <Button Text="Shield" CornerRadius="10" BackgroundColor="Gray" TextColor="White"/>
+                    <Button Text="State View" CornerRadius="10" BackgroundColor="Gray" TextColor="White"/>
+                    <Button Text="Tab View" CornerRadius="10" BackgroundColor="Gray" TextColor="White"/>
+                    <Button Text="Uniform View" CornerRadius="10" BackgroundColor="Gray" TextColor="White"/>
+                </StackLayout>
+            </ScrollView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

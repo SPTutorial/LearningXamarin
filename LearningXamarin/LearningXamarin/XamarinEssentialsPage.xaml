@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             Title="Xamarin Essentials"
+             x:Class="LearningXamarin.XamarinEssentialsPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <ScrollView VerticalScrollBarVisibility="Never">
+                <StackLayout Padding="20">
+                    <Button Text="Accelerometer" CornerRadius="10" BackgroundColor="Gray" TextColor="White"/>
+                    <Button Text="App Action" CornerRadius="10" BackgroundColor="Gray" TextColor="White"/>
+                    <Button Text="App Information" CornerRadius="10" BackgroundColor="Gray" TextColor="White"/>
+                    <Button Text="Barometer" CornerRadius="10" BackgroundColor="Gray" TextColor="White"/>
+                    <Button Text="Battery" CornerRadius="10" BackgroundColor="Gray" TextColor="White"/>
+                    <Button Text="Clipboard" CornerRadius="10" BackgroundColor="Gray" TextColor="White"/>
+                    <Button Text="Compass" CornerRadius="10" BackgroundColor="Gray" TextColor="White"/>
+                    <Button Text="Connectivity" CornerRadius="10" BackgroundColor="Gray" TextColor="White"/>
+                    <Button Text="Contacts" CornerRadius="10" BackgroundColor="Gray" TextColor="White"/>
+                    <Button Text="Device Information" CornerRadius="10" BackgroundColor="Gray" TextColor="White"/>
+                    <Button Text="Email" CornerRadius="10" BackgroundColor="Gray" TextColor="White"/>
+                    <Button Text="File Picker" CornerRadius="10" BackgroundColor="Gray" TextColor="White"/>
+                    <Button Text="File System Helper" CornerRadius="10" BackgroundColor="Gray" TextColor="White"/>
+                    <Button Text="FlashLight" CornerRadius="10" BackgroundColor="Gray" TextColor="White"/>
+                    <Button Text="Geocoding" CornerRadius="10" BackgroundColor="Gray" TextColor="White"/>
+                    <Button Text="Geolocation" CornerRadius="10" BackgroundColor="Gray" TextColor="White"/>
+                    <Button Text="Gyroscope" CornerRadius="10" BackgroundColor="Gray" TextColor="White"/>
+                    <Button Text="Screenshots" CornerRadius="10" BackgroundColor="Gray" TextColor="White"/>
+                    <Button Text="Secure Storage" CornerRadius="10" BackgroundColor="Gray" TextColor="White"/>
+                    <Button Text="Share" CornerRadius="10" BackgroundColor="Gray" TextColor="White"/>
+                    <Button Text="SMS" CornerRadius="10" BackgroundColor="Gray" TextColor="White"/>
+                    <Button Text="Text to speech" CornerRadius="10" BackgroundColor="Gray" TextColor="White"/>
+                    <Button Text="Version Tracking" CornerRadius="10" BackgroundColor="Gray" TextColor="White"/>
+                </StackLayout>
+            </ScrollView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

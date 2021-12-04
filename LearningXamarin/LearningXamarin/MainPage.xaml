@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             Title="Learning Xamarin Forms"
+             x:Class="LearningXamarin.MainPage">
+
+    <StackLayout>
+        <ScrollView VerticalScrollBarVisibility="Never">
+            <StackLayout Padding="20">
+
+                <Button Text="Xamarin Community Toolkit" CornerRadius="10" BackgroundColor="Green" TextColor="White" Clicked="XamarinCommunityToolkits"/>
+                <Button Text="Xamarin Essentials" CornerRadius="10" BackgroundColor="Gray" TextColor="White" Clicked="XamarinEssentials"/>
+                <Button Text="Firebase CRUD" CornerRadius="10" BackgroundColor="Gray" TextColor="White"/>
+                <Button Text="Firebase Phone Auth" CornerRadius="10" BackgroundColor="Gray" TextColor="White"/>
+                <Button Text="Collection View" CornerRadius="10" BackgroundColor="Gray" TextColor="White"/>
+                <Button Text="Checkbox" CornerRadius="10" BackgroundColor="Gray" TextColor="White"/>
+                <Button Text="Radio Button" CornerRadius="10" BackgroundColor="Gray" TextColor="White"/>
+                <Button Text="Refresh View" CornerRadius="10" BackgroundColor="Gray" TextColor="White"/>
+                <Button Text="Swipe View" CornerRadius="10" BackgroundColor="Gray" TextColor="White"/>
+                <Button Text="Slider" CornerRadius="10" BackgroundColor="Gray" TextColor="White"/>
+                <Button Text="Play Audio" CornerRadius="10" BackgroundColor="Gray" TextColor="White"/>
+                <Button Text="Play Video" CornerRadius="10" BackgroundColor="Gray" TextColor="White"/>
+                <Button Text="Firebase Storage" CornerRadius="10" BackgroundColor="Gray" TextColor="White"/>
+                <Button Text="Stepper" CornerRadius="10" BackgroundColor="Gray" TextColor="White"/>
+                <Button Text="Carausel View" CornerRadius="10" BackgroundColor="Gray" TextColor="White"/>
+                <Button Text="Indicator View" CornerRadius="10" BackgroundColor="Gray" TextColor="White"/>
+                <Button Text="Carausel Page" CornerRadius="10" BackgroundColor="Gray" TextColor="White"/>
+                <Button Text="Image Cropper" CornerRadius="10" BackgroundColor="Gray" TextColor="White"/>
+                <Button Text="Bindable Property" CornerRadius="10" BackgroundColor="Gray" TextColor="White"/>
+                <Button Text="Custom Views" CornerRadius="10" BackgroundColor="Gray" TextColor="White"/>
+                <Button Text="Template Page" CornerRadius="10" BackgroundColor="Gray" TextColor="White"/>
+                <Button Text="Flex Layout" CornerRadius="10" BackgroundColor="Gray" TextColor="White"/>
+                <Button Text="Relative Layout" CornerRadius="10" BackgroundColor="Gray" TextColor="White"/>
+                <Button Text="Shapes" CornerRadius="10" BackgroundColor="Gray" TextColor="White"/>
+                <Button Text="Brush" CornerRadius="10" BackgroundColor="Gray" TextColor="White"/>
+                <Button Text="Gradiant" CornerRadius="10" BackgroundColor="Gray" TextColor="White"/>
+                <Button Text="Generate PDF" CornerRadius="10" BackgroundColor="Gray" TextColor="White"/>
+                <Button Text="iOS Push Notification" CornerRadius="10" BackgroundColor="Gray" TextColor="White"/>
+                <Button Text="In App Update" CornerRadius="10" BackgroundColor="Gray" TextColor="White"/>
+            </StackLayout>
+        </ScrollView>
+    </StackLayout>
+
+</ContentPage>
